@@ -1,5 +1,5 @@
 import React from 'react'
-import Heading from './Heading'
+
 import Cards from './Cards'
 
 const data=[

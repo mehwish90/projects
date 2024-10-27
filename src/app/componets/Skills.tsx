@@ -1,30 +1,147 @@
 import React from 'react'
-import Heading from './Heading'
+import { FaUserCheck } from "react-icons/fa";
 
 const Skills = () => {
   return (
-    <div  id ="Skills"className='container pt-32'>
-        <div className='gird md:grid-cols-2 gap-20 items-center'>
-      <div data-aos="zoom-in-down">
-        <h1 className='underline' >Skills</h1>
-        
+    <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-col text-center w-full mb-20">
+      <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
+        Skills
+      </h2>
+      <h1 className=" underline sm:text-5xl text-2xl font-medium title-font text-white">
+        My Skills
+      </h1>
+    </div>
+    <div className="flex flex-wrap -m-4">
+
+      <div className="p-4 md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+            <FaUserCheck  className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+              HTML
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+              <div className=' absolute h-1 w-[100%] bg-cyan-600 rounded-xl'></div>
+            </div>
+            <p className='font-bold text-cyan-600 text-right'>100%</p>
+           
+             </div>   
+           </div>  
+           </div>
+
+<div className="p-4 md:w-1/3">
+  <div className="flex rounded-lg h-full  p-8 flex-col">
+    <div className="flex items-center mb-3">
+      <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+      <FaUserCheck  className='text-xl font-bold'/>
+      </div>
+      <h2 className="text-white text-lg title-font font-medium">
+        CSS
+      </h2>
+    </div>
+    <div className="flex-grow">
+      <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+        <div className=' absolute h-1 w-[90%] bg-cyan-600 rounded-xl'></div>
+      </div>
+      <p className='font-bold text-cyan-600 text-right'>90%</p>
+     
+         
+        </div>    
+     </div>   
+    
+            
+  </div>
+  <div className="p-4 md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+            <FaUserCheck  className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+              JavaScript
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+              <div className=' absolute h-1 w-[80%] bg-cyan-600 rounded-xl'></div>
+            </div>
+            <p className='font-bold text-cyan-600 text-right'>80%</p>
+           
+             </div>   
+           </div>  
+           </div>
+  
+
+           <div className="p-4 md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+            <FaUserCheck  className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+              Next JS
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+              <div className=' absolute h-1 w-[70%] bg-cyan-600 rounded-xl'></div>
+            </div>
+            <p className='font-bold text-cyan-600 text-right'>70%</p>
+           
+             </div>   
+           </div>  
+           </div>
+           <div className="p-4 md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+            <FaUserCheck  className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+              Type Script
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+              <div className=' absolute h-1 w-[100%] bg-cyan-600 rounded-xl'></div>
+            </div>
+            <p className='font-bold text-cyan-600 text-right'>100%</p>
+           
+             </div>   
+           </div>  
+           </div>
+           <div className="p-4 md:w-1/3">
+        <div className="flex rounded-lg h-full  p-8 flex-col">
+          <div className="flex items-center mb-3">
+            <div className="w-8 h-8 mr-3 inline-flex items-center justify-center rounded-full bg-cyan-600 text-white flex-shrink-0">
+            <FaUserCheck  className='text-xl font-bold'/>
+            </div>
+            <h2 className="text-white text-lg title-font font-medium">
+              MS Word
+            </h2>
+          </div>
+          <div className="flex-grow">
+            <div className=' relative h-1 w-full bg-slate-600 rounded-xl'>
+              <div className=' absolute h-1 w-[100%] bg-cyan-600 rounded-xl'></div>
+            </div>
+            <p className='font-bold text-cyan-600 text-right'>100%</p>
+           
+             </div>   
+           </div>  
+           </div>
+ </div>
+ </div>
+ 
+           
        
-      </div><div>
-      <div className='grid grid-cols-2 text-accent text-3xl sm:text-4xl'>
-        <div className='space-y-z'>
-            <h2  className='h2' data-aos="zoom-in-down" >Typescript</h2>
-            <h2 className='h2' data-aos="zoom-in-down">React .js</h2>
-            <h2 className='h2' data-aos="zoom-in-down">Next.js</h2>
-        </div>
-        <div className='space-y-z'>
-            <h2 className='h2 'data-aos="zoom-in-down">Tailwind</h2>
-            <h2 className='h2 'data-aos="zoom-in-down">css</h2>
-            <h2 className='h2 'data-aos="zoom-in-down">Node.js</h2>
-        </div>
-      </div>
-      </div>
-    </div>
-    </div>
+</section>
+
   )
 }
 

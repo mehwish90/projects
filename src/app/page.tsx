@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
-import Navbar from "./componets/Navbar";
-import { Main } from "next/document";
+
+
+
 import Heroo from "./componets/Heroo";
 import Projects from "./componets/Projects";
-import Heading from "./componets/Heading";
+
 import Skills from "./componets/Skills";
 import Contact from "./componets/Contact";
 import About from "./componets/About";

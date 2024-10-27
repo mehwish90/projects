@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='space-y-8'>
             
             <h2 className='underline' data-aos="zoom-in-down" >Get in touch</h2>
-            <p className='text bg-green-300 text-[18px] pt-2' data-aos="zoom-in-down">
+            <p className='text bg-emerald-600 text-[18px] pt-2' data-aos="zoom-in-down">
                 Drop me a line,give me a call or send me a message by submitting the form.
             </p>
             

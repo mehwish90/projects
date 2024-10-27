@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 @layer base{body{color: #fff;
-  background-color:black
+  background-color:rgb(47, 19, 170)
   
   ;
   }}
   @layer components{
     .menulink{
-      @apply cursor-pointer hover:text-[#286597];
+      @apply cursor-pointer hover:text-[#46a1a1];
     }
     .tags{ background-color: aquamarine;
     margin-right: 0.5rem;
@@ -33,7 +33,7 @@
         background-color:#463eb4 ;
   }
 }
-  .h2{ color: #20a156;
+  .h2{ color: greenyellow;
   text-align: center;}
   .underline{ font-size: 50px;
     text-align: center;
