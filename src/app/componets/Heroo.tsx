@@ -9,12 +9,12 @@ const Heroo = () => {
     <section className="text-gray-900 body-font">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-      <Image
+    <Image
         className="object-cover object-center rounded mx-auto"
         alt="hero"
         width={350}
         height={1200}
-        src={'require("../../../public/image1.jpg")'}
+        src={require('../../../public/main2.jpeg')}
       />
     </div>
 
