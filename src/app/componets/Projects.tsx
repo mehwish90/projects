@@ -7,7 +7,7 @@ const data=[
         id:0,
         title:"Calculator",
         desc:" Basic CSS , HTML and Typescript app",
-        img:"/Capture 6.jpg",
+        img:"\images\Capture1.jpg",
         tags:["HTML","Node","Css","Typescript"]
     },
 
@@ -16,7 +16,7 @@ const data=[
       id:1,
       title:"Countdow Timmer",
       desc:"Next.js and Typescript powerd website ",
-      img:"/Capture3.jpg",
+      img:"/public/images/Capture3.jpg",
       tags:["Next.js","Node","Css","Typescript"]
   },
   {
