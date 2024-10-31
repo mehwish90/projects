@@ -3,6 +3,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Typewriter from 'typewriter-effect';
 import Image from 'next/image';
+import main2 from '../../../public/images/main2.jpeg'
 const Heroo = () => {
   return (<div>
     <Navbar/>
@@ -14,7 +15,9 @@ const Heroo = () => {
         alt="hero"
         width={350}
         height={1200}
-        src={require('../../../public/images/main2.jpeg')}
+        src={main2}
+
+        
       />
     </div>
 
